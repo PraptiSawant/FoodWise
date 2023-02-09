@@ -1,0 +1,206 @@
+/* .signup-form-button {
+    width: 60%;
+    position: absolute; 
+    margin: 0px 145px;
+  }
+
+  .bgimg
+  {
+    background-image: url('../images/cocktail.jpg');
+    background-position: center;
+    background-size: cover;  
+    background-repeat: no-repeat;
+     height: 100vh;
+     width:100vw;  
+  } 
+  
+  
+  label.ant-form-item-required::before{
+    content: none !important;
+  }
+
+  label.ant-form-item-required::after{
+    display: inline-block;
+    margin-right: 4px;
+    color: #db2124;
+    font-size: 14px;
+    margin-bottom:  5px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+    content: "*" ;
+  }
+
+
+  .signup-form-button[disabled]{
+    opacity: 0.6;
+    background: #1890ff;;
+  }
+
+
+*/
+  .signup-form-button {
+    width: 60%;
+    position: absolute; 
+    margin: -10px 235px;
+  
+  
+  }
+
+  
+
+  .bgimg{
+    background-image: url('../images/cocktail.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height:100vh;
+  
+
+  }
+
+
+  
+  
+  label.ant-form-item-required::before{
+    content: none !important;
+  }
+
+
+  label.ant-form-item-required::after{
+    display: inline-block;
+    margin-right: 4px;
+    color: rgb(242, 45, 45);
+    font-size: 14px;
+    margin-bottom:  5px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+    content: "*" ;
+  }
+
+
+  .signup-form-button[disabled]{
+    opacity: 0.6;
+    background: #1890ff;;
+    color: #efefef;
+  }
+
+
+  .signup-form-button[disabled]:hover{
+    opacity: 0.6;
+    background: #1890ff;
+    color: #efefef;
+  }
+
+  .ant-card-head {
+    display: none;
+}
+
+ant-btn[disabled] {
+  cursor: pointer;
+}
+
+.card1{
+  /* position: absolute; */
+  margin-left: auto;
+  margin-right: auto;
+  height: 85vh;
+  width: 45%;    
+  display:flex;
+  background-color: rgba(0,0,0,.8);
+  padding: 10px;
+  margin: 0 auto;
+  border: 1px solid #0D0F12;
+  margin-top: 5vw;
+  margin-bottom: 45vw;
+  
+}
+
+.signup-form {
+  flex: 1 0 100%;
+  max-width: 480px;
+  width: 100%;
+  padding: 10px;
+  margin: 50px;
+  }
+
+  
+.ant-form-item-control-input-content {
+  text-align: left;
+  border-color: white;
+}
+
+.ant-input-affix-wrapper {
+  padding: 12px 15px;
+}
+.ant-card-body {
+  padding: 0%;
+  margin-top: 50px;
+  
+}
+
+.account{
+   
+  color: #d9edff;
+  /* text-align: center; */
+ padding-left: 47%;
+    /* margin: 180px; */
+
+}
+
+.ant-btn-round.ant-btn-lg {
+  height: 40px;
+  padding: 6.4px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  width:90 vw;
+}
+.ant-input-affix-wrapper {
+  
+  
+
+  color: rgba(0, 0, 0, 0.85);
+  
+  background-color: #d9d9d9;
+  
+  border: 1px solid #d9d9d9;
+
+  
+  display: inline-flex;
+}
+
+.ant-input{
+  background-color: #0D0F12;
+}
+
+
+
+.ant-form-item-label {
+  display: inline-table;
+}
+
+.ant-input-affix-wrapper {
+  color: rgba(0, 0, 0, 0.85);
+  background-color: #0D0F12;
+  border: 1px solid white;
+  display: inline-flex;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+  padding: 0;
+  border: none;
+  color: white;
+}
+
+.register {
+  color: gold;
+  padding: 0px 4px;
+  font-size: 14px;
+}
+
+.register:hover {
+  color: rgb(159, 142, 12);
+  padding: 0px 4px;
+  font-size: 14px;
+  text-decoration: underline;
+}
+

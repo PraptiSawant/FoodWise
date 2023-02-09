@@ -1,0 +1,238 @@
+
+
+
+.in{
+width: 600px;
+height: 400px;
+margin: auto;
+padding-top: 100px;
+}
+
+
+.ant-input-group > .ant-input:first-child, .ant-input-group-addon:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+    
+}
+a img {
+  width: 300px;
+  height: 300px;
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}
+
+.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button {
+
+    border-radius: 0 20px 20px 0;
+}
+
+.ant-input-group-addon {
+    border-radius: 20px;  
+}
+
+.layout-section{
+    background-color: rgba(99, 43, 43, 0);
+    
+}
+
+.hpimg{
+    /* background-color: rgb(1, 0, 0); */
+    background-image: url('../images/abab.jpg');
+    background-position: center;
+    background-size: 100pc;
+    background-repeat: no-repeat;
+    border-bottom-style:groove;
+    border-bottom-color:#ff903f ;
+    
+    
+    
+    }
+    .dishes {
+      display: inline-table;
+      border-radius: 20px;
+      border-style: inset;
+      height: 420px;
+  }
+    .ant-card-body {
+      padding: 0%;
+      margin-top: 15px !important;
+  }
+  .ant-card-meta-title {
+
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 15px;
+    text-overflow: clip;
+}
+.ant-card-meta-description {
+  color: rgba(0, 0, 0, 0.45);
+  margin-bottom: 34px;
+  margin-left: 15px;
+}
+/* .search{
+   box-shadow: inset; 
+} */
+.dishes{
+    border-radius: 20px;
+    border-style:inset;
+    margin: 30px;
+}
+
+.r{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.ant-card-meta-description {
+  color: rgba(20, 18, 18, 0.9);
+  margin-bottom: 34px;
+  margin-left: 15px;
+  font-size: 16px;
+}
+.ant-layout-header {
+    
+    padding: 10px 15px;
+    
+}
+
+
+ /* Footer */
+
+ .line-5 {
+    width: 1 00%;
+    height: 28px;
+ 
+    background: linear-gradient(
+      transparent 2px,
+      #ff903f 2px,
+      #ff903f 3px,
+      transparent 3px
+    );
+  }
+  
+  .vl {
+    border-left: 1.5px solid rgba(0, 0, 0, 0.441);
+    position: absolute;
+   
+    margin-left: -3px;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    margin-top: -7%;
+  }
+  
+  .sm {
+    margin-left: 10%;
+    margin-top: 10px
+  }
+  
+  .cu {
+    text-align: right;
+    margin-right: 12%;
+    margin-top: -7%;
+  }
+  .ul {
+    font-style: bold;
+    font-family: "Franklin Gothic Medium";
+    font-size: 20px;
+    font-weight: 700;
+  }
+.social{
+    font-weight: 700;
+    font-style: bold;
+    text-align: center; 
+    margin-top: -7%;
+}
+
+.ant-input-group .ant-input {
+  background-color: rgb(255, 255, 255);
+}
+
+
+.ant-layout-content {
+  background-color: rgb(255, 255, 255);
+}
+
+.ant-input-group .ant-input {
+
+color: black;
+
+}
+
+
+.wrapper
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(12rem,20rem));
+  gap:2rem;
+  justify-content: center;
+
+}
+
+.dishes
+{
+  overflow: hidden;
+  box-shadow:0px 2px 20px gray300;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+
+}
+
+a img{
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-radius: 20px;
+  height: 34px;
+}
+
+.searchbutton {
+  position: absolute;
+  margin: 1.5px -50px;
+  border-color: white;
+ 
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  height: 50px;
+}
+.ant-btn {
+  line-height: 1.5715;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  height: 32px;
+  padding: 4px 15px;
+  font-size: 14px;
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.85);
+  border-color:white !important;
+  background: #fff;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 19px;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
